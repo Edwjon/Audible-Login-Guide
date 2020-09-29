@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		475680BA2522E4BE000B4353 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475680B92522E4BE000B4353 /* AppDelegate.swift */; };
 		475680BC2522E4BE000B4353 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475680BB2522E4BE000B4353 /* SceneDelegate.swift */; };
-		475680BE2522E4BE000B4353 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475680BD2522E4BE000B4353 /* ViewController.swift */; };
-		475680C12522E4BE000B4353 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 475680BF2522E4BE000B4353 /* Main.storyboard */; };
 		475680C32522E4C1000B4353 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 475680C22522E4C1000B4353 /* Assets.xcassets */; };
 		475680C62522E4C1000B4353 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 475680C42522E4C1000B4353 /* LaunchScreen.storyboard */; };
+		475680CE2522E510000B4353 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475680CD2522E510000B4353 /* LoginController.swift */; };
+		475680D62522E525000B4353 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475680CF2522E525000B4353 /* MainNavigationController.swift */; };
+		475680D72522E525000B4353 /* LoginCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475680D02522E525000B4353 /* LoginCell.swift */; };
+		475680D82522E525000B4353 /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475680D12522E525000B4353 /* PageCell.swift */; };
+		475680D92522E525000B4353 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475680D22522E525000B4353 /* HomeController.swift */; };
+		475680DA2522E525000B4353 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475680D32522E525000B4353 /* Page.swift */; };
+		475680DB2522E525000B4353 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475680D42522E525000B4353 /* Extensions.swift */; };
+		475680DC2522E525000B4353 /* UserDefaults+helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475680D52522E525000B4353 /* UserDefaults+helpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		475680B62522E4BE000B4353 /* Audible Login Guide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Audible Login Guide.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		475680B92522E4BE000B4353 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		475680BB2522E4BE000B4353 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		475680BD2522E4BE000B4353 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		475680C02522E4BE000B4353 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		475680C22522E4C1000B4353 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		475680C52522E4C1000B4353 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		475680C72522E4C1000B4353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		475680CD2522E510000B4353 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		475680CF2522E525000B4353 /* MainNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		475680D02522E525000B4353 /* LoginCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginCell.swift; sourceTree = "<group>"; };
+		475680D12522E525000B4353 /* PageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
+		475680D22522E525000B4353 /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		475680D32522E525000B4353 /* Page.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		475680D42522E525000B4353 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		475680D52522E525000B4353 /* UserDefaults+helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserDefaults+helpers.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +70,14 @@
 			children = (
 				475680B92522E4BE000B4353 /* AppDelegate.swift */,
 				475680BB2522E4BE000B4353 /* SceneDelegate.swift */,
-				475680BD2522E4BE000B4353 /* ViewController.swift */,
-				475680BF2522E4BE000B4353 /* Main.storyboard */,
+				475680CD2522E510000B4353 /* LoginController.swift */,
+				475680D42522E525000B4353 /* Extensions.swift */,
+				475680D22522E525000B4353 /* HomeController.swift */,
+				475680D02522E525000B4353 /* LoginCell.swift */,
+				475680CF2522E525000B4353 /* MainNavigationController.swift */,
+				475680D32522E525000B4353 /* Page.swift */,
+				475680D12522E525000B4353 /* PageCell.swift */,
+				475680D52522E525000B4353 /* UserDefaults+helpers.swift */,
 				475680C22522E4C1000B4353 /* Assets.xcassets */,
 				475680C42522E4C1000B4353 /* LaunchScreen.storyboard */,
 				475680C72522E4C1000B4353 /* Info.plist */,
@@ -127,7 +145,6 @@
 			files = (
 				475680C62522E4C1000B4353 /* LaunchScreen.storyboard in Resources */,
 				475680C32522E4C1000B4353 /* Assets.xcassets in Resources */,
-				475680C12522E4BE000B4353 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +155,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				475680BE2522E4BE000B4353 /* ViewController.swift in Sources */,
+				475680CE2522E510000B4353 /* LoginController.swift in Sources */,
+				475680DB2522E525000B4353 /* Extensions.swift in Sources */,
+				475680DC2522E525000B4353 /* UserDefaults+helpers.swift in Sources */,
 				475680BA2522E4BE000B4353 /* AppDelegate.swift in Sources */,
+				475680DA2522E525000B4353 /* Page.swift in Sources */,
+				475680D92522E525000B4353 /* HomeController.swift in Sources */,
+				475680D82522E525000B4353 /* PageCell.swift in Sources */,
+				475680D72522E525000B4353 /* LoginCell.swift in Sources */,
+				475680D62522E525000B4353 /* MainNavigationController.swift in Sources */,
 				475680BC2522E4BE000B4353 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +171,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		475680BF2522E4BE000B4353 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				475680C02522E4BE000B4353 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		475680C42522E4C1000B4353 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,7 +310,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Edward-Pizzurro.Audible-Login-Guide";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +328,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Edward-Pizzurro.Audible-Login-Guide";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
